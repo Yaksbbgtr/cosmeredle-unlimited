@@ -93,16 +93,70 @@ const settings = Object.assign(
 settings.series = settings.series.filter((s) => SERIES.includes(s));
 if (!settings.series.length) settings.series = SERIES.slice();
 
-const stats = Object.assign(
-  { played: 0, wins: 0, streak: 0, best: 0, dist: {}, round: 0 },
-  store.get("stats", {}),
-);
+// Every finished round is one entry in `history`; stats are computed from it.
+// A log (rather than counters) lets two devices merge their rounds without losing any.
+let history = store.get("history", null);
+let statsResetAt = store.get("statsResetAt", 0);
+if (history === null) history = migrateOldStats(store.get("stats", null));
 
-let game = store.get("game", null); // { target, guesses: [id], over: false, won: false }
+function migrateOldStats(old) {
+  const out = [];
+  if (!old || !old.played) return out;
+  const wins = [];
+  for (const [n, count] of Object.entries(old.dist || {})) for (let i = 0; i < count; i++) wins.push(Number(n));
+  const losses = Math.max(0, old.played - wins.length);
+  const streak = Math.min(old.streak || 0, wins.length);
+  // Order: older wins, losses, then the current streak of wins at the end.
+  const seq = [...wins.slice(streak).map((n) => [true, n]), ...Array(losses).fill([false, 0]), ...wins.slice(0, streak).map((n) => [true, n])];
+  const base = Date.now() - seq.length * 1000;
+  seq.forEach(([won, n], i) => out.push({ id: `m${base}-${i}`, t: base + i * 1000, won, n, who: "" }));
+  return out;
+}
 
-const saveSettings = () => store.set("settings", settings);
-const saveStats = () => store.set("stats", stats);
-const saveGame = () => store.set("game", game);
+const stats = { played: 0, wins: 0, streak: 0, best: 0, dist: {} };
+function recomputeStats() {
+  Object.assign(stats, { played: 0, wins: 0, streak: 0, best: 0, dist: {} });
+  for (const h of history.slice().sort((a, b) => a.t - b.t)) {
+    stats.played++;
+    if (h.won) {
+      stats.wins++;
+      stats.streak++;
+      stats.best = Math.max(stats.best, stats.streak);
+      stats.dist[h.n] = (stats.dist[h.n] || 0) + 1;
+    } else stats.streak = 0;
+  }
+}
+recomputeStats();
+
+let game = null; // in memory: { target: id, guesses: [id], over, won, t }
+
+const saveSettings = () => {
+  settings.t = Date.now();
+  store.set("settings", settings);
+  scheduleSync();
+};
+const saveHistory = () => {
+  store.set("history", history);
+  store.set("statsResetAt", statsResetAt);
+  scheduleSync();
+};
+// Saved by character name so it survives custom-character lists changing order.
+function gameToStored(g) {
+  return g && { target: CHARACTERS[g.target].plain, guesses: g.guesses.map((id) => CHARACTERS[id].plain), over: g.over, won: g.won, t: g.t };
+}
+function gameFromStored(s) {
+  if (!s) return null;
+  const byName = (v) => (typeof v === "number" ? CHARACTERS[v] : CHARACTERS.find((c) => c.plain === v))?.id;
+  const target = byName(s.target);
+  if (target === undefined) return null;
+  return { target, guesses: s.guesses.map(byName).filter((id) => id !== undefined), over: !!s.over, won: !!s.won, t: s.t || 0 };
+}
+const saveGame = () => {
+  game.t = Date.now();
+  store.set("game", gameToStored(game));
+  scheduleSync();
+};
+const roundNumber = () => stats.played + (game && !game.over ? 1 : 0);
 
 /* ---------------- dom ---------------- */
 
@@ -140,9 +194,7 @@ function newGame() {
   const keep = Math.max(1, Math.floor(candidates.length / 3));
   store.set("recent", [target.id, ...recent].slice(0, keep));
 
-  stats.round += 1;
-  saveStats();
-  game = { target: target.id, guesses: [], over: false, won: false };
+  game = { target: target.id, guesses: [], over: false, won: false, t: 0 };
   saveGame();
   render(true);
   input.focus();
@@ -181,17 +233,16 @@ function giveUp() {
 function finish(won) {
   game.over = true;
   game.won = won;
-  stats.played += 1;
-  if (won) {
-    stats.wins += 1;
-    stats.streak += 1;
-    stats.best = Math.max(stats.best, stats.streak);
-    const n = game.guesses.length;
-    stats.dist[n] = (stats.dist[n] || 0) + 1;
-  } else {
-    stats.streak = 0;
-  }
-  saveStats();
+  const now = Date.now();
+  history.push({
+    id: `${now.toString(36)}-${Math.random().toString(36).slice(2, 8)}`,
+    t: now,
+    won,
+    n: game.guesses.length,
+    who: CHARACTERS[game.target].plain,
+  });
+  recomputeStats();
+  saveHistory();
 }
 
 /* ---------------- rendering ---------------- */
@@ -231,7 +282,7 @@ function render() {
 }
 
 function updateChrome() {
-  $("#round-num").textContent = stats.round;
+  $("#round-num").textContent = roundNumber();
   $("#guess-count").textContent = game.guesses.length;
   $("#streak").textContent = stats.streak;
   $("#empty").hidden = game.guesses.length > 0;
@@ -441,8 +492,10 @@ $("#opt-motion").addEventListener("change", (e) => {
 });
 $("#btn-reset-stats").addEventListener("click", () => {
   if (!confirm("Reset all your stats?")) return;
-  Object.assign(stats, { played: 0, wins: 0, streak: 0, best: 0, dist: {}, round: game ? 1 : 0 });
-  saveStats();
+  statsResetAt = Date.now();
+  history = [];
+  recomputeStats();
+  saveHistory();
   updateChrome();
 });
 
@@ -467,7 +520,6 @@ $("#btn-new").addEventListener("click", () => {
 // (no win or loss recorded) so the change takes effect immediately.
 $("#dlg-settings").addEventListener("close", () => {
   if (game.over || pool().some((c) => c.id === game.target)) return;
-  stats.round -= 1;
   newGame();
 });
 $("#dlg-end").addEventListener("close", () => {
@@ -501,6 +553,8 @@ const bookSeries = new Map(BASE.map((c) => [clean(c.firstAppearance[0]).toLowerC
 // Match typed text to the exact spelling the built-in data uses (it contains soft hyphens).
 const canonical = (kind, v) => canon[kind].get(clean(v).trim().toLowerCase()) ?? v.trim();
 const splitList = (s) => s.split(/[,;\n]/).map((x) => x.trim()).filter(Boolean);
+
+const customKey = (c) => clean(c.name.join(" ")).toLowerCase();
 
 function loadCustom() {
   CHARACTERS.length = BASE_COUNT;
@@ -665,16 +719,18 @@ function removeCustom(i) {
   const list = store.get("custom", []);
   const name = list[i]?.name.join(" ");
   if (!confirm(`Remove ${clean(name ?? "this character")}?`)) return;
-  list.splice(i, 1);
+  const [removed] = list.splice(i, 1);
+  const tomb = store.get("customRemoved", {});
+  tomb[customKey(removed)] = Date.now();
+  store.set("customRemoved", tomb);
   store.set("custom", list);
-  const touched = game.target >= BASE_COUNT || game.guesses.some((id) => id >= BASE_COUNT);
+  const stored = gameToStored(game);
   loadCustom();
   renderCustomList();
-  if (touched) {
-    // Indexes shifted, so the current round can't be trusted. Start fresh (no stat change).
-    stats.round -= 1;
-    newGame();
-  }
+  const g = gameFromStored(stored);
+  if (!g || g.guesses.length !== game.guesses.length) newGame();
+  else game = g;
+  scheduleSync();
 }
 
 $("#btn-add").addEventListener("click", () => {
@@ -735,24 +791,263 @@ addForm.addEventListener("submit", (e) => {
     setStatus(`${clean(c.name.join(" "))} is already in the game.`, "warn");
     return;
   }
+  c.added = Date.now();
   const list = store.get("custom", []);
   list.push(c);
   store.set("custom", list);
+  const stored = gameToStored(game);
   loadCustom();
+  game = gameFromStored(stored) ?? game;
+  scheduleSync();
   addForm.reset();
   renderCustomList();
   setStatus(`Added ${clean(c.name.join(" "))}. They can now be guessed and can be the mystery character.`, "ok");
 });
 
+/* ---------------- cloud sync (private GitHub Gist) ---------------- */
+
+const SYNC_FILE = "cosmeredle-sync.json";
+const sync = {
+  token: store.get("syncToken", null),
+  gist: store.get("syncGist", null),
+  last: store.get("syncLast", 0),
+  busy: false,
+  again: false,
+  timer: null,
+  error: null,
+  applying: false,
+};
+
+function scheduleSync() {
+  if (!sync.token || sync.applying) return;
+  clearTimeout(sync.timer);
+  sync.timer = setTimeout(syncNow, 1500);
+}
+
+async function gh(path, opts = {}) {
+  const res = await fetch("https://api.github.com" + path, {
+    ...opts,
+    cache: "no-store",
+    headers: {
+      Authorization: `Bearer ${sync.token}`,
+      Accept: "application/vnd.github+json",
+      ...(opts.body ? { "Content-Type": "application/json" } : {}),
+    },
+  });
+  if (res.status === 401) throw new Error("GitHub didn't accept the token. It may have expired.");
+  if (res.status === 403 || res.status === 404) throw new Error("The token can't access gists. Make sure the “gist” box was ticked.");
+  if (!res.ok) throw new Error(`GitHub error ${res.status}.`);
+  return res.json();
+}
+
+function snapshot() {
+  return {
+    v: 1,
+    statsResetAt,
+    history,
+    custom: store.get("custom", []),
+    customRemoved: store.get("customRemoved", {}),
+    settings: { ...settings, seenHelp: true },
+    game: gameToStored(game),
+  };
+}
+
+async function findOrCreateGist() {
+  for (let page = 1; page <= 10; page++) {
+    const list = await gh(`/gists?per_page=100&page=${page}`);
+    const hit = list.find((g) => g.files && g.files[SYNC_FILE]);
+    if (hit) return hit.id;
+    if (list.length < 100) break;
+  }
+  const created = await gh("/gists", {
+    method: "POST",
+    body: JSON.stringify({
+      description: "Cosmeredle Unlimited sync data",
+      public: false,
+      files: { [SYNC_FILE]: { content: JSON.stringify(snapshot()) } },
+    }),
+  });
+  return created.id;
+}
+
+async function readRemote() {
+  const g = await gh(`/gists/${sync.gist}`);
+  const f = g.files[SYNC_FILE];
+  if (!f) return null;
+  const text = f.truncated ? await (await fetch(f.raw_url, { cache: "no-store" })).text() : f.content;
+  try {
+    return JSON.parse(text);
+  } catch {
+    return null;
+  }
+}
+
+function mergeRemote(r) {
+  if (!r || r.v !== 1) return;
+  sync.applying = true;
+  try {
+    // Rounds: union of both logs, minus anything before the latest "reset stats".
+    statsResetAt = Math.max(statsResetAt, r.statsResetAt || 0);
+    const byId = new Map();
+    for (const h of [...(r.history || []), ...history]) byId.set(h.id, h);
+    history = [...byId.values()].filter((h) => h.t > statsResetAt).sort((a, b) => a.t - b.t);
+    store.set("history", history);
+    store.set("statsResetAt", statsResetAt);
+    recomputeStats();
+
+    // Added characters: union, honoring removals made after a character was added.
+    const tomb = { ...(r.customRemoved || {}) };
+    for (const [k, t] of Object.entries(store.get("customRemoved", {}))) tomb[k] = Math.max(tomb[k] || 0, t);
+    const merged = new Map();
+    for (const c of [...store.get("custom", []), ...(r.custom || [])]) {
+      const k = customKey(c);
+      if (!merged.has(k) || (c.added || 0) < (merged.get(k).added || 0)) merged.set(k, c);
+    }
+    const custom = [...merged.values()]
+      .filter((c) => !(tomb[customKey(c)] >= (c.added || 0)))
+      .sort((a, b) => (a.added || 0) - (b.added || 0));
+    store.set("customRemoved", tomb);
+    store.set("custom", custom);
+    const keepGame = gameToStored(game);
+    loadCustom();
+
+    // Settings and the round in progress: most recent change wins.
+    if (r.settings && (r.settings.t || 0) > (settings.t || 0)) {
+      Object.assign(settings, r.settings, { seenHelp: true });
+      settings.series = settings.series.filter((s) => SERIES.includes(s));
+      if (!settings.series.length) settings.series = SERIES.slice();
+      store.set("settings", settings);
+    }
+    const remoteGame = r.game && (r.game.t || 0) > (keepGame?.t || 0) ? gameFromStored(r.game) : null;
+    game = remoteGame ?? gameFromStored(keepGame) ?? game;
+    store.set("game", gameToStored(game));
+    if (!document.querySelector("dialog[open]")) render();
+    else updateChrome();
+  } finally {
+    sync.applying = false;
+  }
+}
+
+async function syncNow() {
+  if (!sync.token) return;
+  if (sync.busy) {
+    sync.again = true;
+    return;
+  }
+  sync.busy = true;
+  sync.error = null;
+  renderSyncStatus();
+  try {
+    if (!sync.gist) {
+      sync.gist = await findOrCreateGist();
+      store.set("syncGist", sync.gist);
+    }
+    const remote = await readRemote();
+    mergeRemote(remote);
+    const mine = snapshot();
+    if (JSON.stringify(mine) !== JSON.stringify(remote)) {
+      await gh(`/gists/${sync.gist}`, {
+        method: "PATCH",
+        body: JSON.stringify({ files: { [SYNC_FILE]: { content: JSON.stringify(mine) } } }),
+      });
+    }
+    sync.last = Date.now();
+    store.set("syncLast", sync.last);
+  } catch (e) {
+    sync.error = e.message || "Sync failed.";
+  } finally {
+    sync.busy = false;
+    renderSyncStatus();
+    if (sync.again) {
+      sync.again = false;
+      syncNow();
+    }
+  }
+}
+
+function ago(t) {
+  const s = Math.round((Date.now() - t) / 1000);
+  if (s < 10) return "just now";
+  if (s < 60) return `${s}s ago`;
+  if (s < 3600) return `${Math.round(s / 60)} min ago`;
+  if (s < 86400) return `${Math.round(s / 3600)} h ago`;
+  return new Date(t).toLocaleDateString();
+}
+
+function renderSyncStatus() {
+  const on = !!sync.token;
+  $("#sync-off").hidden = on;
+  $("#sync-on").hidden = !on;
+  $("#sync-dot").hidden = !on;
+  $("#sync-dot").className = "sync-dot " + (sync.error ? "err" : sync.busy ? "busy" : "ok");
+  $("#sync-dot").title = sync.error ? `Sync problem: ${sync.error}` : sync.busy ? "Syncing…" : "Synced";
+  if (!on) return;
+  const s = $("#sync-status");
+  if (sync.busy) s.textContent = "Syncing…";
+  else if (sync.error) s.textContent = sync.error;
+  else s.textContent = sync.last ? `Synced ${ago(sync.last)}` : "Connected";
+  s.className = "small " + (sync.error ? "status-warn" : "status-ok");
+}
+
+async function connectSync() {
+  const token = $("#sync-token").value.trim();
+  if (!token) return;
+  const btn = $("#btn-sync-connect");
+  btn.disabled = true;
+  $("#sync-msg").textContent = "Connecting…";
+  sync.token = token;
+  sync.gist = null;
+  try {
+    sync.gist = await findOrCreateGist();
+    store.set("syncToken", token);
+    store.set("syncGist", sync.gist);
+    $("#sync-token").value = "";
+    $("#sync-msg").textContent = "";
+    await syncNow();
+  } catch (e) {
+    sync.token = null;
+    $("#sync-msg").textContent = e.message;
+  } finally {
+    btn.disabled = false;
+    renderSyncStatus();
+  }
+}
+
+function initSync() {
+  $("#btn-sync-connect").addEventListener("click", connectSync);
+  $("#sync-token").addEventListener("keydown", (e) => {
+    if (e.key === "Enter") { e.preventDefault(); connectSync(); }
+  });
+  $("#btn-sync-now").addEventListener("click", syncNow);
+  $("#btn-sync-off").addEventListener("click", () => {
+    if (!confirm("Stop syncing on this device? Your data stays here and in the cloud.")) return;
+    sync.token = sync.gist = null;
+    store.set("syncToken", null);
+    store.set("syncGist", null);
+    renderSyncStatus();
+  });
+  $("#sync-dot").addEventListener("click", () => $("#btn-settings").click());
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") syncNow();
+  });
+  setInterval(() => {
+    if (document.visibilityState === "visible") syncNow();
+  }, 60_000);
+  renderSyncStatus();
+  syncNow();
+}
+
 /* ---------------- boot ---------------- */
 
 loadCustom();
+game = gameFromStored(store.get("game", null));
 
-if (!game || CHARACTERS[game.target] === undefined) {
+if (!game) {
   newGame();
 } else {
   render();
 }
+initSync();
 if (!settings.seenHelp) {
   settings.seenHelp = true;
   saveSettings();

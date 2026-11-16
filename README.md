@@ -17,6 +17,7 @@ Open `index.html` in a browser. That's it, with no build step or server. (Fonts 
 - High-contrast palette and reduced-motion options
 - Add your own characters: paste a Coppermind link to fill in the details (or type them in), and they join the guess list and the mystery pool
 - Your progress and added characters are saved in the browser
+- Optional cloud sync: connect a GitHub token (gist scope only) in Settings and your stats, added characters, settings and current round follow you between browsers, stored in a private gist
 
 ## Updating the character list
 

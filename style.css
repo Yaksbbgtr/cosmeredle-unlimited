@@ -400,6 +400,24 @@ body.cb .status-ok { color: var(--text); }
 .link-btn:hover { color: var(--text); }
 dialog { max-height: calc(100vh - 32px); overflow-y: auto; }
 
+/* ---------- cloud sync ---------- */
+.steps { padding-left: 18px; margin: 8px 0 12px; display: grid; gap: 6px; }
+.steps a { color: inherit; font-weight: 700; }
+.sync-btns { display: flex; gap: 8px; }
+.small-btn { height: 36px; padding: 0 14px; font-size: 13px; }
+#sync-msg:empty, #sync-status:empty { display: none; }
+.sync-dot {
+  width: 40px; height: 40px; border: none; background: none; cursor: pointer;
+  display: grid; place-items: center; padding: 0;
+}
+.sync-dot[hidden] { display: none; }
+.sync-dot::after {
+  content: ""; width: 9px; height: 9px; border-radius: 50%; background: var(--full);
+}
+.sync-dot.busy::after { background: var(--partial); animation: pulse 1s ease-in-out infinite alternate; }
+.sync-dot.err::after { background: #d9534f; }
+@keyframes pulse { to { opacity: .3; } }
+
 /* ---------- small screens ---------- */
 @media (max-width: 620px) {
   body { font-size: 14px; }
