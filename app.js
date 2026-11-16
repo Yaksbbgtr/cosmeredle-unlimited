@@ -343,7 +343,7 @@ function search(q) {
     const name = c.plain.toLowerCase();
     let score;
     if (name.startsWith(q)) score = 0;
-    else if (name.split(/[\s-]+/).some((w) => w.startsWith(q))) score = 1;
+    else if (name.split(/[\s()-]+/).some((w) => w.startsWith(q))) score = 1;
     else if (name.includes(q)) score = 2;
     else continue;
     scored.push([score, c]);
