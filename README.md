@@ -15,9 +15,8 @@ Open `index.html` in a browser. That's it, with no build step or server. (Fonts 
 - Spoiler control: choose which series the mystery character can come from
 - Clean Wordle-style look with light, dark, and match-device themes
 - High-contrast palette and reduced-motion options
-- Add your own characters: paste a Coppermind link to fill in the details (or type them in), and they join the guess list and the mystery pool
-- Your progress and added characters are saved in the browser
-- Optional cloud sync: connect a GitHub token (gist scope only) in Settings and your stats, added characters, settings and current round follow you between browsers, stored in a private gist
+- Your progress is saved in the browser
+- Optional cloud sync: connect a GitHub token (gist scope only) in Settings and your stats, settings and current round follow you between browsers, stored in a private gist
 
 ## Updating the character list
 
@@ -27,7 +26,12 @@ Characters live in `tools/characters.source.json` (copied from the original proj
 python3 tools/build_data.py
 ```
 
-That regenerates `characters.js`.
+That regenerates `characters.js`. To add one character quickly:
+
+```sh
+python3 tools/add_character.py "Name" "World" "First book" "Species,Subtype" "Ability, Ability"
+python3 tools/build_data.py
+```
 
 ## Credits
 
