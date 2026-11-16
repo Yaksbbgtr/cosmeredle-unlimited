@@ -63,10 +63,13 @@ body.cb { --full: #f5793a; --partial: #85c0f9; }
 html, body { margin: 0; }
 /* No double-tap zoom, and no text auto-resizing on rotate (iOS). */
 html { touch-action: manipulation; -webkit-text-size-adjust: 100%; text-size-adjust: 100%; }
+/* The page is only as tall as its content (no 100vh, which on iPhone is taller than the visible
+   screen and made the empty page scroll). The html background fills the rest, and
+   overscroll-behavior stops the rubber-band bounce when there's nothing to scroll. */
+html { background: var(--bg); overscroll-behavior: none; }
 input, select, textarea { font-size: 16px; }
 
 body {
-  min-height: 100vh;
   background: var(--bg);
   color: var(--text);
   font-family: var(--font);
