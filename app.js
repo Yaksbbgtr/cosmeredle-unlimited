@@ -553,6 +553,66 @@ function loadCustom() {
   });
 }
 
+/* ---------------- updates ----------------
+ * Home-screen web apps on iPhone keep serving a cached copy of the page. Each release bumps
+ * the ?v= stamp on the script tags, so we compare ours with the live page's and offer a reload
+ * with a fresh URL, which skips the cache. */
+
+const APP_VERSION = (document.querySelector('script[src*="app.js"]')?.src.match(/[?&]v=(\w+)/) || [])[1] || "dev";
+
+async function latestVersion() {
+  const res = await fetch(`./?check=${Date.now()}`, { cache: "no-store" });
+  const text = await res.text();
+  return (text.match(/app\.js\?v=(\w+)/) || [])[1] || null;
+}
+
+function reloadFresh() {
+  const u = new URL(location.href);
+  u.search = `?u=${Date.now()}`;
+  u.hash = "";
+  location.replace(u.toString());
+}
+
+let lastUpdateCheck = 0;
+async function checkForUpdate(manual = false) {
+  const msg = $("#update-msg");
+  if (!manual && Date.now() - lastUpdateCheck < 60_000) return;
+  lastUpdateCheck = Date.now();
+  if (manual) {
+    msg.className = "small muted";
+    msg.textContent = "Checking…";
+  }
+  try {
+    const latest = await latestVersion();
+    if (latest && latest !== APP_VERSION) {
+      $("#update-bar").hidden = false;
+      if (manual) {
+        msg.className = "small status-ok";
+        msg.textContent = "A new version is ready. Updating…";
+        setTimeout(reloadFresh, 400);
+      }
+    } else if (manual) {
+      msg.className = "small status-ok";
+      msg.textContent = "You're on the latest version.";
+    }
+  } catch {
+    if (manual) {
+      msg.className = "small status-warn";
+      msg.textContent = "Couldn't check. Are you online?";
+    }
+  }
+}
+
+function initUpdates() {
+  $("#app-version").textContent = APP_VERSION;
+  $("#btn-check-update").addEventListener("click", () => checkForUpdate(true));
+  $("#btn-update").addEventListener("click", reloadFresh);
+  document.addEventListener("visibilitychange", () => {
+    if (document.visibilityState === "visible") checkForUpdate();
+  });
+  checkForUpdate();
+}
+
 /* ---------------- cloud sync (private GitHub Gist) ---------------- */
 
 const SYNC_FILE = "cosmeredle-sync.json";
@@ -797,6 +857,7 @@ if (!game) {
   render();
 }
 initSync();
+initUpdates();
 if (!settings.seenHelp) {
   settings.seenHelp = true;
   saveSettings();

@@ -418,6 +418,29 @@ dialog { max-height: calc(100vh - 32px); overflow-y: auto; }
 .sync-dot.err::after { background: #d9534f; }
 @keyframes pulse { to { opacity: .3; } }
 
+/* ---------- updates ---------- */
+.version-row { display: flex; justify-content: space-between; align-items: center; gap: 10px; }
+#update-msg:empty { display: none; }
+.update-bar {
+  position: fixed;
+  left: 50%;
+  bottom: calc(16px + env(safe-area-inset-bottom));
+  transform: translateX(-50%);
+  z-index: 50;
+  display: flex; align-items: center; gap: 14px;
+  width: max-content;
+  max-width: calc(100vw - 32px);
+  padding: 10px 10px 10px 18px;
+  border-radius: 28px;
+  background: var(--text);
+  color: var(--bg);
+  font-weight: 600;
+  font-size: 14px;
+  box-shadow: var(--card-shadow);
+  animation: slide .25s ease-out;
+}
+.update-bar[hidden] { display: none; }
+
 /* ---------- small screens ---------- */
 @media (max-width: 620px) {
   body { font-size: 14px; }

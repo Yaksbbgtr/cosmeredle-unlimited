@@ -15,7 +15,7 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Libre+Franklin:wght@400;500;600;700;800&family=Roboto+Slab:wght@700&display=swap">
-  <link rel="stylesheet" href="style.css?v=2026111605">
+  <link rel="stylesheet" href="style.css?v=2026111606">
 </head>
 <body>
   <header class="top">
@@ -94,6 +94,12 @@
       <label class="switch"><span>Theme</span><select id="opt-theme"><option value="system">Match device</option><option value="light">Light</option><option value="dark">Dark</option></select></label>
       <label class="switch"><span>High-contrast colors</span><input type="checkbox" id="opt-cb"></label>
       <label class="switch"><span>Reduce animations</span><input type="checkbox" id="opt-motion"></label>
+      <h3>App version</h3>
+      <div class="version-row">
+        <span class="small muted">Version <span id="app-version"></span></span>
+        <button type="button" class="btn ghost small-btn" id="btn-check-update">Check for updates</button>
+      </div>
+      <p id="update-msg" class="small"></p>
       <h3>Cloud sync</h3>
       <div id="sync-off">
         <p class="small muted">Keep your stats, added characters, settings and current round the same on every browser. Your data is saved in a private gist on your GitHub account.</p>
@@ -121,6 +127,11 @@
     </form>
   </dialog>
 
+  <div class="update-bar" id="update-bar" hidden role="status">
+    <span>A new version is available.</span>
+    <button type="button" class="btn primary small-btn" id="btn-update">Update</button>
+  </div>
+
   <!-- Stats -->
   <dialog id="dlg-stats">
     <form method="dialog" class="dlg">
@@ -146,7 +157,7 @@
     </form>
   </dialog>
 
-  <script src="characters.js?v=2026111605"></script>
-  <script src="app.js?v=2026111605"></script>
+  <script src="characters.js?v=2026111606"></script>
+  <script src="app.js?v=2026111606"></script>
 </body>
 </html>
