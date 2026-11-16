@@ -1,6 +1,6 @@
 # Cosmeredle Unlimited
 
-A personal, restyled take on [Cosmeredle](https://git.tobot.dev/toby/cosmeredle), the Cosmere character-guessing game, with **unlimited rounds** instead of one per day.
+A personal, Wordle-styled take on [Cosmeredle](https://git.tobot.dev/toby/cosmeredle), the Cosmere character-guessing game, with **unlimited rounds** instead of one per day.
 
 ## Play
 
@@ -13,7 +13,8 @@ Open `index.html` in a browser. That's it, with no build step or server. (Fonts 
 - Animated tile reveals with Match / Close / Miss colors
 - Stats: rounds played, win rate, streak, average guesses, guess distribution
 - Spoiler control: choose which series the mystery character can come from
-- Colorblind-friendly palette and reduced-motion options
+- Clean Wordle-style look with light, dark, and match-device themes
+- High-contrast palette and reduced-motion options
 - Your progress is saved in the browser
 
 ## Updating the character list

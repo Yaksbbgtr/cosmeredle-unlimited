@@ -86,7 +86,7 @@ const store = {
 };
 
 const settings = Object.assign(
-  { series: SERIES.slice(), colorblind: false, reduceMotion: false, seenHelp: false },
+  { series: SERIES.slice(), theme: "system", colorblind: false, reduceMotion: false, seenHelp: false },
   store.get("settings", {}),
 );
 // Drop any series that no longer exist; fall back to everything if empty.
@@ -239,6 +239,8 @@ function updateChrome() {
   $("#btn-giveup").disabled = game.over;
   $("#btn-new").textContent = game.over ? "Next character" : "New character";
   document.body.classList.toggle("cb", settings.colorblind);
+  if (settings.theme === "system") document.documentElement.removeAttribute("data-theme");
+  else document.documentElement.dataset.theme = settings.theme;
   document.body.classList.toggle("reduce-motion", settings.reduceMotion);
 }
 
@@ -416,10 +418,16 @@ function renderSettings() {
       return el("label", {}, cb, el("span", {}, s), el("span", { class: "count" }, String(countIn(s))));
     }),
   );
+  $("#opt-theme").value = settings.theme;
   $("#opt-cb").checked = settings.colorblind;
   $("#opt-motion").checked = settings.reduceMotion;
 }
 
+$("#opt-theme").addEventListener("change", (e) => {
+  settings.theme = e.target.value;
+  saveSettings();
+  updateChrome();
+});
 $("#opt-cb").addEventListener("change", (e) => {
   settings.colorblind = e.target.checked;
   saveSettings();
