@@ -126,7 +126,8 @@ function el(tag, attrs = {}, ...children) {
 
 function pool() {
   const allowed = new Set(settings.series);
-  return CHARACTERS.filter((c) => c.custom || allowed.has(c.series));
+  // Added characters from a series not in the list (e.g. a new book) are always allowed.
+  return CHARACTERS.filter((c) => allowed.has(c.series) || (c.custom && !SERIES.includes(c.series)));
 }
 
 function newGame() {
@@ -460,6 +461,13 @@ $("#btn-new").addEventListener("click", () => {
     if (!confirm("Skip this character? It counts as a loss.")) return;
     finish(false);
   }
+  newGame();
+});
+// If the series filter now excludes the current mystery character, swap it right away
+// (no win or loss recorded) so the change takes effect immediately.
+$("#dlg-settings").addEventListener("close", () => {
+  if (game.over || pool().some((c) => c.id === game.target)) return;
+  stats.round -= 1;
   newGame();
 });
 $("#dlg-end").addEventListener("close", () => {
