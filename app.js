@@ -675,7 +675,10 @@ $("#btn-add").addEventListener("click", () => {
   fillDatalists();
   renderCustomList();
   addDlg.showModal();
-  $("#add-url").focus();
+  addDlg.scrollTop = 0;
+  // On phones, don't pop the keyboard open right away; let the user tap the field.
+  if (matchMedia("(pointer: fine)").matches) $("#add-url").focus();
+  else document.activeElement?.blur();
 });
 
 async function runLookup() {
@@ -703,7 +706,8 @@ async function runLookup() {
     } else setStatus(e.message, "warn");
   } finally {
     btn.disabled = false;
-    fld("world").focus();
+    if (matchMedia("(pointer: fine)").matches) fld("world").focus();
+    else document.activeElement?.blur();
   }
 }
 
