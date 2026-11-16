@@ -15,7 +15,8 @@ Open `index.html` in a browser. That's it, with no build step or server. (Fonts 
 - Spoiler control: choose which series the mystery character can come from
 - Clean Wordle-style look with light, dark, and match-device themes
 - High-contrast palette and reduced-motion options
-- Your progress is saved in the browser
+- Add your own characters: paste a Coppermind link to fill in the details (or type them in), and they join the guess list and the mystery pool
+- Your progress and added characters are saved in the browser
 
 ## Updating the character list
 

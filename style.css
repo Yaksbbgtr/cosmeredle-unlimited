@@ -356,6 +356,47 @@ input[type="checkbox"] { accent-color: var(--full); width: 16px; height: 16px; }
 .facts dt { color: var(--muted); font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase; padding-top: 2px; }
 .facts dd { margin: 0; }
 
+/* ---------- add character ---------- */
+.url-row { display: flex; gap: 8px; }
+.url-row input, .fields input {
+  flex: 1;
+  width: 100%;
+  height: 42px;
+  padding: 0 12px;
+  border-radius: 4px;
+  border: 2px solid var(--tile-border);
+  background: var(--bg);
+  color: var(--text);
+  font: 500 15px var(--font);
+  outline: none;
+}
+.url-row input:focus, .fields input:focus { border-color: var(--muted); }
+.url-row .btn { height: 42px; }
+#add-status { min-height: 1.4em; margin: 8px 0 4px; }
+#add-status a { color: inherit; font-weight: 700; }
+.status-ok { color: var(--full); }
+.status-warn { color: var(--partial); }
+body.cb .status-ok { color: var(--text); }
+.fields { display: grid; gap: 10px; }
+.fields label {
+  display: grid; gap: 4px;
+  font-size: 11px; font-weight: 700; letter-spacing: .06em; text-transform: uppercase;
+}
+.fields .opt { color: var(--muted); font-weight: 500; text-transform: none; letter-spacing: 0; }
+.fields .two { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; }
+#custom-list { list-style: none; margin: 0; padding: 0; max-height: 180px; overflow-y: auto; }
+#custom-list li {
+  display: flex; justify-content: space-between; align-items: center; gap: 8px;
+  padding: 7px 0; border-bottom: 1px solid var(--line); font-weight: 600;
+}
+#custom-list li small { color: var(--muted); font-weight: 400; }
+.link-btn {
+  border: none; background: none; color: var(--muted); cursor: pointer;
+  font: 600 12px var(--font); text-decoration: underline; padding: 4px;
+}
+.link-btn:hover { color: var(--text); }
+dialog { max-height: calc(100vh - 32px); overflow-y: auto; }
+
 /* ---------- small screens ---------- */
 @media (max-width: 620px) {
   body { font-size: 14px; }
