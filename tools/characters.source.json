@@ -4390,5 +4390,26 @@
 		],
 		"validFrom": 20697,
 		"shippable": true
+	},
+	{
+		"name": [
+			"Baramaz"
+		],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": [
+			"Wind and Truth",
+			"Storm­light Ar­chive"
+		],
+		"species": [
+			"Hu­man",
+			"Un­spec­i­fied"
+		],
+		"abilities": [
+			"Edge­danc­er",
+			"Knight Ra­di­ant",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"shippable": true
 	}
 ]
