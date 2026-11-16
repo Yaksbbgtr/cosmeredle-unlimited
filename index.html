@@ -1,0 +1,122 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+  <meta name="theme-color" content="#0b0d1a">
+  <title>Cosmeredle Unlimited</title>
+  <link rel="icon" type="image/svg+xml" href="favicon.svg">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cinzel:wght@500;700&family=Inter:wght@400;500;600&display=swap">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="sky" aria-hidden="true"></div>
+
+  <header class="top">
+    <button class="icon-btn" id="btn-help" aria-label="How to play" title="How to play">?</button>
+    <div class="brand">
+      <h1>Cosmeredle</h1>
+      <p class="tag">Unlimited</p>
+    </div>
+    <div class="top-right">
+      <button class="icon-btn" id="btn-stats" aria-label="Statistics" title="Statistics">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M4 20V10h3v10H4Zm6.5 0V4h3v16h-3ZM17 20v-7h3v7h-3Z"/></svg>
+      </button>
+      <button class="icon-btn" id="btn-settings" aria-label="Settings" title="Settings">
+        <svg viewBox="0 0 24 24" width="18" height="18"><path fill="currentColor" d="M19.4 13a7.6 7.6 0 0 0 0-2l2-1.6-2-3.4-2.4 1a7.4 7.4 0 0 0-1.7-1L15 3.5h-4L10.6 6a7.4 7.4 0 0 0-1.7 1l-2.4-1-2 3.4L4.6 11a7.6 7.6 0 0 0 0 2l-2 1.6 2 3.4 2.4-1a7.4 7.4 0 0 0 1.7 1l.4 2.5h4l.4-2.5a7.4 7.4 0 0 0 1.7-1l2.4 1 2-3.4-2-1.6ZM12 15.5a3.5 3.5 0 1 1 0-7 3.5 3.5 0 0 1 0 7Z"/></svg>
+      </button>
+    </div>
+  </header>
+
+  <main>
+    <section class="status" aria-live="polite">
+      <div class="pill"><span class="pill-label">Round</span><span id="round-num">1</span></div>
+      <div class="pill"><span class="pill-label">Guesses</span><span id="guess-count">0</span></div>
+      <div class="pill"><span class="pill-label">Streak</span><span id="streak">0</span></div>
+    </section>
+
+    <section class="guess-box">
+      <div class="combo">
+        <input id="guess-input" type="text" autocomplete="off" spellcheck="false"
+               placeholder="Guess a Cosmere character…" aria-label="Guess a character"
+               role="combobox" aria-expanded="false" aria-controls="suggestions" aria-autocomplete="list">
+        <ul id="suggestions" role="listbox" hidden></ul>
+      </div>
+      <div class="actions">
+        <button class="btn ghost" id="btn-giveup">Give up</button>
+        <button class="btn primary" id="btn-new">New character</button>
+      </div>
+    </section>
+
+    <section class="board" aria-label="Your guesses">
+      <div class="board-head">
+        <span>Character</span><span>World</span><span>First book</span><span>Species</span><span>Abilities</span>
+      </div>
+      <div id="rows"></div>
+      <p class="empty" id="empty">Pick any character to start. Each guess shows how close you are.</p>
+    </section>
+  </main>
+
+  <!-- How to play -->
+  <dialog id="dlg-help">
+    <form method="dialog" class="dlg">
+      <h2>How to play</h2>
+      <p>A random character from the Cosmere has been chosen. Guess anyone, and each column tells you how close you are. Play as many rounds as you like.</p>
+      <ul class="legend">
+        <li><span class="sw full"></span><b>Match.</b> That attribute is exactly right.</li>
+        <li><span class="sw partial"></span><b>Close.</b> Some overlap: a shared name or ability, the same series but a different book, or the same species but a different subtype.</li>
+        <li><span class="sw none"></span><b>Miss.</b> Nothing in common.</li>
+      </ul>
+      <p class="muted">Tip: in Settings you can pick which series the mystery character comes from, so you avoid spoilers for books you haven't read.</p>
+      <button class="btn primary" value="close">Got it</button>
+    </form>
+  </dialog>
+
+  <!-- Settings -->
+  <dialog id="dlg-settings">
+    <form method="dialog" class="dlg">
+      <h2>Settings</h2>
+      <h3>Mystery character comes from</h3>
+      <div id="series-list" class="checks"></div>
+      <p class="muted small">You can still guess any character. This only limits who the answer can be.</p>
+      <h3>Display</h3>
+      <label class="switch"><input type="checkbox" id="opt-cb"><span>Colorblind-friendly colors</span></label>
+      <label class="switch"><input type="checkbox" id="opt-motion"><span>Reduce animations</span></label>
+      <div class="dlg-foot">
+        <button class="btn ghost" type="button" id="btn-reset-stats">Reset stats</button>
+        <button class="btn primary" value="close">Done</button>
+      </div>
+    </form>
+  </dialog>
+
+  <!-- Stats -->
+  <dialog id="dlg-stats">
+    <form method="dialog" class="dlg">
+      <h2>Statistics</h2>
+      <div class="stat-grid" id="stat-grid"></div>
+      <h3>Guesses to solve</h3>
+      <div id="dist" class="dist"></div>
+      <button class="btn primary" value="close">Close</button>
+    </form>
+  </dialog>
+
+  <!-- Round over -->
+  <dialog id="dlg-end">
+    <form method="dialog" class="dlg end">
+      <p class="end-kicker" id="end-kicker"></p>
+      <h2 id="end-name"></h2>
+      <dl class="facts" id="end-facts"></dl>
+      <p class="muted" id="end-line"></p>
+      <div class="dlg-foot">
+        <button class="btn ghost" value="close">View board</button>
+        <button class="btn primary" value="next" id="btn-next" autofocus>Next character →</button>
+      </div>
+    </form>
+  </dialog>
+
+  <script src="characters.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>

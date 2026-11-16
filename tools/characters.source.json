@@ -1,0 +1,4394 @@
+[
+	{
+		"name": ["A­do­lin", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer", "Un­oathed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["A­do­nal­si­um-Will-Rem­em­ber-Our-Pli­ght-Ev­en­tu­al­ly"],
+		"homeWorld": "Can­ti­cle",
+		"firstAppearance": ["The Sun­lit Man", "The Sun­lit Man"],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ak­an­e"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "Na­ga­dan"],
+		"abilities": ["Night­mare Paint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Al­en­di"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Khlen­ni"],
+		"abilities": ["Mist­ing", "Seek­er"],
+		"validFrom": 0,
+		"validUntil": 20430,
+		"shippable": true
+	},
+	{
+		"name": ["All­ik", "Nev­er­far"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Bands of Mourn­ing", "Mist­born Era 2"],
+		"species": ["Hu­man", "Mal­wish"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["All­ri­anne", "Cett"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Well of As­cen­sion", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Mist­ing", "Riot­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Am­ar­am"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 0,
+		"validUntil": 20682,
+		"shippable": true
+	},
+	{
+		"name": ["Ann"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Ar­clo­med­ar­i­an"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Edge­danc­er", "Storm­light Ar­chive"],
+		"species": ["Sleep­less", "Ai­mi­an"],
+		"abilities": ["Horde­lings"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ar­steel"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Life­less", "Re­turn­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ash­ra­van"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Emp­er­or's Soul", "El­ant­ris"],
+		"species": ["Hu­man", "Grand"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ash­weath­er", "Cett"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Well of As­cen­sion", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["A­ti"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Aux­il­i­ar­y"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "High­spren"],
+		"abilities": ["Na­hel Bond", "Sky­break­er", "Splint­er", "World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20452,
+		"shippable": true
+	},
+	{
+		"name": ["Ax­ies"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Si­ah", "Ai­mi­an"],
+		"abilities": ["Curse of Kind"],
+		"validFrom": 0,
+		"validUntil": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Ba-Ado-Mish­ram"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Un­made"],
+		"abilities": ["Splint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Bat­tar"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Bel­dre"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The He­ro of Ages", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Coin­shot", "Mist­ing"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Blue­fin­gers"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Pahn Kahl"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Blush­weav­er"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Hal­lan­dren"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Re­turn­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Breeze"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Mist­ing", "Sooth­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Cha­na­rach"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Char­lie"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Dig­gen's Point"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Ches­ter­ton", "Div­ide"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Chi­ri-Chi­ri"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Lar­kin"],
+		"abilities": ["Con­sumes In­vest­iture"],
+		"validFrom": 0,
+		"validUntil": 20604,
+		"shippable": false
+	},
+	{
+		"name": ["Cin­der", "King"],
+		"homeWorld": "Can­ti­cle",
+		"firstAppearance": ["The Sun­lit Man", "The Sun­lit Man"],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Char­red"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Clubs"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Mist­ing", "Smok­er"],
+		"validFrom": 0,
+		"validUntil": 20464,
+		"shippable": true
+	},
+	{
+		"name": ["Col­ot"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­oathed", "Wind­run­ner Squire"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Cord"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­ka­la­ki"],
+		"abilities": ["Shard­bearer", "Sight­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Crow"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Spore Eat­er"],
+		"validFrom": 0,
+		"validUntil": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Dab­bid"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Da­li­nar", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": [
+			"Bond­smith",
+			"Knight Ra­di­ant",
+			"Old Magic",
+			"Shard Ves­sel",
+			"Shard­bearer",
+			"Sliv­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20696,
+		"shippable": true
+	},
+	{
+		"name": ["Dem­id"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": ["Forms of Pow­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Denth"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": [
+			"Awaken­er",
+			"Cog­ni­tive Shad­ow",
+			"Re­turn­ed",
+			"Roy­al Locks",
+			"World­hop­per"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["De­sign"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Cryp­tic"],
+		"abilities": ["Light­weav­er", "Na­hel Bond", "Splint­er", "World­hop­per"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Dil­af"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Fjord­ell"],
+		"abilities": ["Dak­hor"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Dock­son"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Dusk"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
+		"species": ["Hu­man", "Eela­kin"],
+		"abilities": ["Av­iar Bond"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ed­gli"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Ed­warn", "Lad­ri­an"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "El­end­el"],
+		"abilities": ["Hema­lurgy"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["El"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 0,
+		"validUntil": 20602,
+		"shippable": true
+	},
+	{
+		"name": ["El­egy"],
+		"homeWorld": "Can­ti­cle",
+		"firstAppearance": ["The Sun­lit Man", "The Sun­lit Man"],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Char­red"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["El­end", "Ven­ture"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Mist­born"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["El­ho­kar", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Light­weav­er", "Shard­bearer"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Esh­o­nai"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": ["Forms of Pow­er", "Shard­bearer", "Will­shap­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Es­su"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fan­nahn-im", "Fus­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Felt"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20277,
+		"shippable": true
+	},
+	{
+		"name": ["Fort"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Is­lands of Lo­bu"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Fra­va"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Emp­er­or's Soul", "El­ant­ris"],
+		"species": ["Hu­man", "Grand"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Gal­la­don"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Du­la"],
+		"abilities": ["El­ant­ri­an", "World­hop­per"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ga­o­to­na"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Emp­er­or's Soul", "El­ant­ris"],
+		"species": ["Hu­man", "Grand"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ga­vi­lar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ga­vin­or"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": false
+	},
+	{
+		"name": ["Gaz"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Knight Ra­di­ant", "Light­weav­er", "Surge­bind­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Glys"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Mist­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Truth­watch­er"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ham­mond"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Mist­ing", "Pew­ter­arm"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Har­i­el"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fus­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Hna­nan"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fus­ed", "Sha­nay-im"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Hoid"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": [
+			"Awaken­er",
+			"Dawn­shard",
+			"El­ant­ri­an",
+			"Knight Ra­di­ant",
+			"Light­weav­er",
+			"Mist­born",
+			"Surge­bind­er",
+			"World­hop­per"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Hra­then"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Fjord­ell"],
+		"abilities": ["Dak­hor"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Hu­io"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Her­da­zi­an"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 0,
+		"validUntil": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ish­ar"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Iv­o­ry"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Spren", "Ink­spren"],
+		"abilities": ["Else­cal­ler", "Na­hel Bond", "Splint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Iy­a­til"],
+		"homeWorld": "Sil­ver­light",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "South­ern Scad­ri­an"],
+		"abilities": ["Else­cal­ler", "World­hop­per"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Iz­zy"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "Na­ga­dan"],
+		"abilities": ["Night­mare Paint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Jas­nah", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Else­cal­ler", "Knight Ra­di­ant", "Surge­bind­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Jew­els"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Hal­lan­dren"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Jez­rien"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Ka­la­din"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Knight Ra­di­ant",
+			"Surge­bind­er",
+			"Wind­run­ner"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ka­lak"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Kel­si­er"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Hema­lurgy",
+			"Mist­born",
+			"Shard Ves­sel",
+			"Sliv­er"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Khriss"],
+		"homeWorld": "Tal­dain",
+		"firstAppearance": ["The Bands of Mourn­ing", "Mist­born Era 2"],
+		"species": ["Hu­man", "Dark­si­der"],
+		"abilities": ["Star­marks", "World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ki­in"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Kok­er­lii"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
+		"species": ["Avi­ar", "Stream­er"],
+		"abilities": ["Men­tal shield­ing"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": false
+	},
+	{
+		"name": ["Kor­a­vell­i­um", "Av­ast"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Drag­on", "Un­spec­i­fied"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": false
+	},
+	{
+		"name": ["Kwaan"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": ["Fe­ru­che­mist"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Kyr­il"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fus­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Lag­gart"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Ler­as"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Well of As­cen­sion", "Mist­born Era 1"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Lesh­wi"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fus­ed", "Sha­nay-im"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Lez­i­an"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fus­ed", "Nex-im"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Lift"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Re­shi"],
+		"abilities": [
+			"Edge­danc­er",
+			"Knight Ra­di­ant",
+			"Old Magic",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"shippable": false
+	},
+	{
+		"name": ["Light­song"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Hal­lan­dren"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Re­turn­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Li­yun"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "To­rish"],
+		"abilities": ["Night­mare"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Llar­imar"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Hal­lan­dren"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Lop­en"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Her­da­zi­an"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Mar­as­i", "Col­ms"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "El­end­el"],
+		"abilities": ["Mist­ing", "Puls­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Mar­sh"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Hema­lurgy", "Mist­ing", "Seek­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ma­sa­ka"],
+		"homeWorld": "Un­spec­i­fied",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Sleep­less", "Na­ga­dan"],
+		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ma­ya­la­ran"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Spren", "Cul­it­va­tion spren"],
+		"abilities": [
+			"Dead­eye",
+			"Edge­danc­er",
+			"Na­hel Bond",
+			"Splint­er",
+			"Un­oathed"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Me­Laan"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The He­ro of Ages", "Mist­born Era 1"],
+		"species": ["Kan­dra", "Sev­enth Gen­er­a­tion"],
+		"abilities": ["Shape­shift­ing", "World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Miles", "Dag­out­er"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": [
+			"Aug­ur",
+			"Blood­mak­er",
+			"Fer­ring",
+			"Hema­lurgy",
+			"Mist­ing",
+			"Sav­ant",
+			"Twin­born"
+		],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Mir­ris"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
+		"species": ["Avi­ar", "Stream­er"],
+		"abilities": ["Men­tal shield­ing"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": false
+	},
+	{
+		"name": ["Mo­ash"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 0,
+		"validUntil": 20602,
+		"shippable": true
+	},
+	{
+		"name": ["Mra­ize"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thay­len"],
+		"abilities": ["Light­weav­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Na­le"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Sky­break­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Na­va­ni", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Bond­smith", "Knight Ra­di­ant", "Surge­bind­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Nazh"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Night"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Spren", "An­cient"],
+		"abilities": ["Bond­smith", "Na­hel Bond"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Night­blood"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Sword", "nimi"],
+		"abilities": [
+			"Con­sumes In­vest­iture",
+			"Co­me­dic ti­ming",
+			"World­hop­per"
+		],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Night­watch­er"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Bond­smith"],
+		"abilities": ["Bond­smith", "Na­hel Bond", "Old Magic", "Splint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ni­ka­ro"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "Na­ga­dan"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
+		"validFrom": 0,
+		"validUntil": 20668,
+		"shippable": true
+	},
+	{
+		"name": ["Ni­kli­as­orm"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Dawn­shard", "Storm­light Ar­chive"],
+		"species": ["Sleep­less", "Ai­mi­an"],
+		"abilities": ["Horde­lings"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Nou­ra"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Edge­danc­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Az­ish"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Paalm"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Kan­dra", "Third Gen­er­a­tion"],
+		"abilities": ["Hema­lurgy", "Shape­shift­ing"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Pai­li­ah"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Pat­tern"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Spren", "Cryp­tic"],
+		"abilities": ["Light­weav­er", "Na­hel Bond", "Splint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Phen­dor­an­a"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Quel­li­on"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The He­ro of Ages", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Hema­lurgy"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ra­bon­i­el"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fan­nahn-im", "Fus­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ran­ette"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Lurch­er", "Mist­ing"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ra­o­den"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 0,
+		"validUntil": 20682,
+		"shippable": true
+	},
+	{
+		"name": ["Rash­ek"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": [
+			"Fe­ru­che­mist",
+			"Hema­lurgy",
+			"Mist­born",
+			"Sav­ant",
+			"Sliv­er",
+			"Twin­born"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ray­se"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Ren­ar­in", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Surge­bind­er",
+			"Truth­watch­er",
+			"Void­bin­der"
+		],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ri­ina"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Awaken­er", "El­ant­ri­an", "World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Rlain"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": ["Truth­watch­er", "Void­bin­der"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Rock"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­ka­la­ki"],
+		"abilities": ["Sight­ed", "Wind­run­ner Squire"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ru­a"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Rysn"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thay­len"],
+		"abilities": ["Dawn­shard"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Sak"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
+		"species": ["Avi­ar", "Un­spec­i­fied"],
+		"abilities": ["Pre­cog­ni­tion"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": false
+	},
+	{
+		"name": ["Sal­ay"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Is­lands of Lo­bu"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Sar­en­e"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20682,
+		"shippable": true
+	},
+	{
+		"name": ["Saz­ed"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": ["Fe­ru­che­mist", "Shard Ves­sel"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Se­bru­ki"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20295,
+		"shippable": false
+	},
+	{
+		"name": ["Shai"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Emp­er­or's Soul", "El­ant­ris"],
+		"species": ["Hu­man", "Mai­Pon"],
+		"abilities": ["For­ger", "World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Shal­ash"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Shal­lan", "Da­var"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Light­weav­er",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Sha­sha­ra"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": [
+			"Awaken­er",
+			"Cog­ni­tive Shad­ow",
+			"Re­turn­ed",
+			"Roy­al Locks",
+			"Shard­bearer",
+			"World­hop­per"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Shu­den"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Jin­Do"],
+		"abilities": ["Chay­Shan"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Sib­ling"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Bond­smith"],
+		"abilities": ["Bond­smith", "Na­hel Bond", "Splint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Sig­zil"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Az­ish"],
+		"abilities": [
+			"Dawn­shard",
+			"Knight Ra­di­ant",
+			"Sky­break­er",
+			"Surge­bind­er",
+			"Wind­run­ner",
+			"World­hop­per"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Sil­ence"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Si­ri"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Id­ri­an"],
+		"abilities": ["Roy­al Locks"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Sja-an­at"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Un­made"],
+		"abilities": ["Splint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Skar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Spook"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Hema­lurgy", "Mist­born", "Mist­ing", "Sav­ant", "Tin­eye"],
+		"validFrom": 0,
+		"validUntil": 20464,
+		"shippable": true
+	},
+	{
+		"name": ["Ster­is", "Harms"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "El­end­el"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Stone"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Spren", "An­cient"],
+		"abilities": ["Bond­smith", "Na­hel Bond"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Storm­fath­er"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Spren", "Bond­smith"],
+		"abilities": [
+			"Bond­smith",
+			"Cog­ni­tive Shad­ow",
+			"Na­hel Bond",
+			"Sliv­er",
+			"Splint­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20687,
+		"shippable": true
+	},
+	{
+		"name": ["Straff", "Ven­ture"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Mist­ing", "Tin­eye"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Su­se­bron"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Hal­lan­dren"],
+		"abilities": ["Awaken­er", "Cog­ni­tive Shad­ow", "Re­turn­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Syl­phre­na"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Szeth"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Sky­break­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ta­le­nel"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Tan­av­ast"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Tar­av­an­gi­an"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Khar­branthi­an"],
+		"abilities": ["Old Magic", "Shard Ves­sel"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Teft"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Tel­sin", "Lad­ri­an"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Bands of Mourn­ing", "Mist­born Era 2"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": ["Av­a­tar", "Fer­ring", "Hema­lurgy", "Wind­whis­per­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ten­Soon"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Kan­dra", "Third Gen­er­a­tion"],
+		"abilities": [
+			"Bless­ing of Po­ten­cy",
+			"Bless­ing of Pres­ence",
+			"Shape­shift­ing"
+		],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Tes­tam­ent"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Spren", "Cryp­tic"],
+		"abilities": ["Dead­eye", "Light­weav­er", "Na­hel Bond", "Splint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Ti­en"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Light­weav­er"],
+		"validFrom": 0,
+		"validUntil": 20315,
+		"shippable": false
+	},
+	{
+		"name": ["Tim­bre"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Spren", "Reach­er"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Will­shap­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Tind­wyl"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Well of As­cen­sion", "Mist­born Era 1"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": ["Fe­ru­che­mist"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["To­jin"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "Na­ga­dan"],
+		"abilities": ["Night­mare Paint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Tonk", "Fah"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Pahn Kahl"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Tor­ol", "Sad­e­as"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Tress"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Dig­gen's Point"],
+		"abilities": ["Sprout­er"],
+		"validFrom": 0,
+		"validUntil": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Tu­mi"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "Mist­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Truth­watch­er"],
+		"validFrom": 0,
+		"validUntil": 20318,
+		"shippable": true
+	},
+	{
+		"name": ["Ul­aam"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Kan­dra", "Un­spec­i­fied"],
+		"abilities": ["Shape­shift­ing"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Uli", "Da"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Sho Del", "Un­spec­i­fied"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Vash­er"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": [
+			"Awaken­er",
+			"Cog­ni­tive Shad­ow",
+			"Re­turn­ed",
+			"Shard­bearer",
+			"World­hop­per"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Va­thi"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Sixth of the Dusk", "Sixth of the Dusk"],
+		"species": ["Hu­man", "Eela­kin"],
+		"abilities": ["Av­iar Bond"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ved­el"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Ven­li"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": ["Forms of Pow­er", "Knight Ra­di­ant", "Will­shap­er"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Vi­en­ta"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 0,
+		"validUntil": 20602,
+		"shippable": true
+	},
+	{
+		"name": ["Vin"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Hema­lurgy", "Mist­born", "Shard Ves­sel", "Sliv­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Viv­en­na"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Id­ri­an"],
+		"abilities": ["Awaken­er", "Roy­al Locks", "Shard­bearer", "World­hop­per"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Wax­ill­i­um", "Lad­ri­an"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": [
+			"Coin­shot",
+			"Fer­ring",
+			"Hema­lurgy",
+			"Mist­born",
+			"Skim­mer",
+			"Twin­born"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Wayne"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": [
+			"Blood­mak­er",
+			"Fer­ring",
+			"Hema­lurgy",
+			"Mist­born",
+			"Slid­er",
+			"Twin­born"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Weed­fin­gers"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Emp­er­or's Soul", "El­ant­ris"],
+		"species": ["Hu­man", "Dzha­ma­ri­an"],
+		"abilities": ["Blood­seal­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Will­i­am", "Ann"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"validUntil": 20296,
+		"shippable": false
+	},
+	{
+		"name": ["Wind"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Spren", "An­cient"],
+		"abilities": ["Bond­smith", "Na­hel Bond"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Wyn­dle"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Spren", "Cul­it­va­tion spren"],
+		"abilities": ["Edge­danc­er", "Na­hel Bond", "Splint­er"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Xis­is­re­fli­el"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Drag­on", "Un­spec­i­fied"],
+		"abilities": ["Awaken­er", "World­hop­per"],
+		"validFrom": 0,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Ya­na­gawn"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Az­ish"],
+		"abilities": ["Un­oathed"],
+		"validFrom": 0,
+		"shippable": false
+	},
+	{
+		"name": ["Ye­lam­ais­zin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Dawn­shard", "Storm­light Ar­chive"],
+		"species": ["Sleep­less", "Ai­mi­an"],
+		"abilities": ["Horde­lings"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Yu­mi"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "To­rish"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Yo­ki-Hi­jo"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Zane", "Ven­ture"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Well of As­cen­sion", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Hema­lurgy", "Mist­born"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Zeal"],
+		"homeWorld": "Can­ti­cle",
+		"firstAppearance": ["The Sun­lit Man", "The Sun­lit Man"],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": ["Jax­lim"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"validUntil": 20538,
+		"shippable": true
+	},
+	{
+		"name": ["No­tum"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 20266,
+		"validUntil": 20300,
+		"shippable": true
+	},
+	{
+		"name": ["Cae­li­no­ra"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Dawn­shard", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Se­ke­ir"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Splint­er"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Sure­blood"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Horse", "Ry­sha­di­um"],
+		"abilities": ["Na­hel Bond"],
+		"validFrom": 20266,
+		"shippable": false
+	},
+	{
+		"name": ["Gall­ant"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Horse", "Ry­sha­di­um"],
+		"abilities": ["Na­hel Bond"],
+		"validFrom": 20266,
+		"shippable": false
+	},
+	{
+		"name": ["Ala­dar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["May", "Ala­dar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­oathed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Beth­ab"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Hath­am"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Rel­is", "Ruth­ar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Roi­on"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Ruth­ar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Tu­ri­nad", "Se­bar­i­al"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Val­am"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Ha­na­va­nar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["He­la­ran", "Da­var"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Ju­shu", "Da­var"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Lin", "Da­var"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Ma­la­ta"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": [
+			"Dust­bring­er",
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Spark"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Ash­spren"],
+		"abilities": ["Dust­bring­er", "Na­hel Bond", "Splint­er"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Ma­li­se", "Ge­vel­mar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Red­in"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Wik­im", "Da­var"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Blen­ded"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "Ink­spren"],
+		"abilities": ["Splint­er"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Dream­ing-though-Aw­ake"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "Mist­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Truth­watch­er"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Tu­mi"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "Mist­spren"],
+		"abilities": [
+			"En­light­ened",
+			"Na­hel Bond",
+			"Splint­er",
+			"Truth­watch­er"
+		],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Ym"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "I­ri­a­li"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Truth­watch­er"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Um­a"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Spren", "Mist­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Truth­watch­er"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Ic­o"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Reach­er"],
+		"abilities": ["Splint­er"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Ua'pam"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "Peak­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Stone­ward"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Zu"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "I­ri­a­li"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Stone­ward",
+			"Surge­bind­er"
+		],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Da­mi"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ri­ran"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Stone­ward",
+			"Surge­bind­er"
+		],
+		"validFrom": 20266,
+		"validUntil": 20669,
+		"shippable": true
+	},
+	{
+		"name": ["No­ha­don"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Surge­bind­er"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Kab­sal"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Her­da­zi­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20266,
+		"shippable": true
+	},
+	{
+		"name": ["Me­de­lan­tor­i­us"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Drag­on", "Un­spec­i­fied"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20270,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Frost"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Drag­on", "Un­spec­i­fied"],
+		"abilities": ["Un­known"],
+		"validFrom": 20270,
+		"validUntil": 20294,
+		"shippable": true
+	},
+	{
+		"name": ["Lir­in"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Hes­in­a"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Dem­oux"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Mist­ing", "Se­er", "World­hop­per"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Ar­a­dan", "Yom­en"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The He­ro of Ages", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Mist­ing", "Se­er"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Arm­al", "Harms"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Hu­man", "El­end­el"],
+		"abilities": ["Mist­ing", "Riot­er"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["For­ch"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Bands of Mourn­ing", "Mist­born Era 2"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": ["Bru­te", "Coin­shot", "Fer­ring", "Mist­ing", "Twin­born"],
+		"validFrom": 20278,
+		"shippable": false
+	},
+	{
+		"name": ["Gem­mel"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The E­lev­enth Me­tal", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Mist­born"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Jak"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": [
+			"Al­lo­man­cer Jak and the Pits of El­ta­nia",
+			"Mist­born Era 2"
+		],
+		"species": ["Hu­man", "El­end­el"],
+		"abilities": ["Mist­ing", "Tin­eye"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Mare"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Mist­ing", "Tin­eye"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Redd"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Mist­ing", "Smok­er"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Shan", "El­ar­i­el"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Mist­born"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Felt"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Awaken­er", "World­hop­per"],
+		"validFrom": 20278,
+		"shippable": true
+	},
+	{
+		"name": ["Ren­ar­in", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Surge­bind­er",
+			"Truth­watch­er",
+			"Void­bin­der"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ven­li"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": [
+			"Forms of Pow­er",
+			"Knight Ra­di­ant",
+			"Surge­bind­er",
+			"Will­shap­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ken­ton"],
+		"homeWorld": "Tal­dain",
+		"firstAppearance": ["White Sand", "White Sand"],
+		"species": ["Hu­man", "Day­si­der"],
+		"abilities": ["Mas­trell", "Sand mas­ter"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Prax­ton"],
+		"homeWorld": "Tal­dain",
+		"firstAppearance": ["White Sand", "White Sand"],
+		"species": ["Hu­man", "Day­si­der"],
+		"abilities": ["Mas­trell", "Sand mas­ter"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ba­on"],
+		"homeWorld": "Tal­dain",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Dark­si­der"],
+		"abilities": ["Sand mas­ter", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Drile"],
+		"homeWorld": "Tal­dain",
+		"firstAppearance": ["White Sand", "White Sand"],
+		"species": ["Hu­man", "Day­si­der"],
+		"abilities": ["Sand mas­ter", "Un­der­mas­trell"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["El­or­in"],
+		"homeWorld": "Tal­dain",
+		"firstAppearance": ["White Sand", "White Sand"],
+		"species": ["Hu­man", "Day­si­der"],
+		"abilities": ["Sand mas­ter", "Un­der­mas­trell"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ma­sa­ka", "(Chi­nik­dak­or­dich)"],
+		"homeWorld": "Un­known",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Sleep­less", "Na­ga­dan"],
+		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
+		"validFrom": 20295,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Khriss­alla"],
+		"homeWorld": "Tal­dain",
+		"firstAppearance": ["The Bands of Mourn­ing", "Mist­born Era 2"],
+		"species": ["Hu­man", "Dark­si­der"],
+		"abilities": ["Star­carved", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Lez­i­an", "the Pur­su­er"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fus­ed", "Nex-im"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Gyun­dok"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "To­rish"],
+		"abilities": ["Night­mare"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Miles", "\"Hund­red­lives\"", "Dag­out­er"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "Ter­ris"],
+		"abilities": [
+			"Aug­ur",
+			"Blood­mak­er",
+			"Fer­ring",
+			"Hema­lurgy",
+			"Mist­ing",
+			"Sav­ant",
+			"Twin­born"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Night­blood"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Sword", "nimi"],
+		"abilities": ["Con­sumes In­vest­iture", "Surge­bind­er", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Sak"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Avi­ar", "Un­spec­i­fied"],
+		"abilities": ["Pre­cog­ni­tion", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": false
+	},
+	{
+		"name": ["Va­thi"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Hu­man", "Eela­kin"],
+		"abilities": ["Av­iar Bond"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Sixth", "of", "the", "Dusk"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Hu­man", "Eela­kin"],
+		"abilities": ["Av­iar Bond", "Nav­i­ga­tor", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Kok­er­lii"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Avi­ar", "Stream­er"],
+		"abilities": ["Men­tal shield­ing"],
+		"validFrom": 20295,
+		"shippable": false
+	},
+	{
+		"name": ["Mir­ris"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Avi­ar", "Stream­er"],
+		"abilities": ["Men­tal shield­ing"],
+		"validFrom": 20295,
+		"shippable": false
+	},
+	{
+		"name": ["Rok­ke"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Avi­ar", "Un­spec­i­fied"],
+		"abilities": ["Men­tal shield­ing", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": false
+	},
+	{
+		"name": ["Pat­ji"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Un­known"],
+		"abilities": ["Av­a­tar"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Sand", "Lord"],
+		"homeWorld": "Tal­dain",
+		"firstAppearance": ["White Sand", "White Sand"],
+		"species": ["Un­known"],
+		"abilities": ["Av­a­tar"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Get­ru­da"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Blood­mak­er", "Hema­lurgy", "Slid­er"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Dum­ad"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": [
+			"Coin­shot",
+			"Du­ral­u­min Gnat",
+			"Hema­lurgy",
+			"Leech­er",
+			"Pew­ter­arm",
+			"Seek­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Glys"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Mist­spren"],
+		"abilities": [
+			"En­light­ened",
+			"Na­hel Bond",
+			"Splint­er",
+			"Truth­watch­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Frost"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Drag­on", "Un­spec­i­fied"],
+		"abilities": ["Im­mor­tal", "Shape­shift­er"],
+		"validFrom": 20295,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Xis­is­re­fli­el"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Drag­on", "Un­spec­i­fied"],
+		"abilities": ["Awaken­er", "Im­mor­tal", "Shape­shift­er", "World­hop­per"],
+		"validFrom": 20295,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Me­Laan"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The He­ro of Ages", "Mist­born Era 1"],
+		"species": ["Kan­dra", "Sev­enth Gen­er­a­tion"],
+		"abilities": ["Shape­shift­er", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Paalm"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Kan­dra", "Third Gen­er­a­tion"],
+		"abilities": ["Hema­lurgy", "Shape­shift­er"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ten­Soon"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Kan­dra", "Third Gen­er­a­tion"],
+		"abilities": [
+			"Bless­ing of Po­ten­cy",
+			"Bless­ing of Pres­ence",
+			"Shape­shift­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ul­aam"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Kan­dra", "Un­spec­i­fied"],
+		"abilities": ["Shape­shift­er", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ore­Seur"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Kan­dra", "Third Gen­er­a­tion"],
+		"abilities": ["Bless­ing of Po­ten­cy", "Shape­shift­er"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Gav­in­or", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20295,
+		"shippable": false
+	},
+	{
+		"name": ["Gav­il­ar", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ca­ko­ban"],
+		"homeWorld": "First of the Sun",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Hu­man", "Eela­kin"],
+		"abilities": ["Nav­i­ga­tor", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ed­warn", "Lad­ri­an"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "El­end­el"],
+		"abilities": ["Blood­mak­er", "Coin­shot", "Hema­lurgy", "Leech­er"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["121"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "High­spren"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Na­hel Bond",
+			"Sky­break­er",
+			"Splint­er",
+			"World­hop­per"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ral-na"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Re­shi"],
+		"abilities": ["Dust­bring­er", "Surge­bind­er"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ia­don"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20295,
+		"validUntil": 20682,
+		"shippable": true
+	},
+	{
+		"name": ["Wan", "Shai­Lu"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Emp­er­or's Soul", "El­ant­ris"],
+		"species": ["Hu­man", "Mai­Pon"],
+		"abilities": ["For­ger", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Ne­tu­ro-son-Vall­ano"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Bond­smith",
+			"Cog­ni­tive Shad­ow",
+			"Hon­or­bear­er",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["El­id-daugh­ter-Zee­nid"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Dust­bring­er",
+			"Hon­or­bear­er",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Si­vi-daugh­ter-Si­vi"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Hon­or­bear­er",
+			"Shard­bearer",
+			"Surge­bind­er",
+			"Will­shap­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Moss-son-Farr­ier"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Hon­or­bear­er",
+			"Light­weav­er",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Rit-daugh­ter-Clu­tio"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Hon­or­bear­er",
+			"Shard­bearer",
+			"Stone­ward",
+			"Surge­bind­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Poz­en-son-Nash"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Else­cal­ler",
+			"Hon­or­bear­er",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Szeth-son-Vall­ano"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Sky­break­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 20295,
+		"validUntil": 20615,
+		"shippable": true
+	},
+	{
+		"name": ["Ad­ro­tag­ia"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Khar­branthi­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Uli", "Da"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Sho Del"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20295,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Una­ti­vi"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "Peak­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Stone­ward"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Evi", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ri­ran"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Nu­mu­hu­ku­ma­ki­ak­i'ai­a­lun­am­or (Rock)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­ka­la­ki"],
+		"abilities": ["Sight­ed", "Wind­run­ner Squire"],
+		"validFrom": 20295,
+		"validUntil": 20615,
+		"shippable": true
+	},
+	{
+		"name": ["Ill­is­tan­dri­sta", "(Star­ling)"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Drag­on"],
+		"abilities": ["Im­mor­tal", "World­hop­per"],
+		"validFrom": 20295,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Me­de­lan­tor­i­us"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Drag­on"],
+		"abilities": ["Im­mor­tal", "Shape­shift­er", "Shard Ves­sel"],
+		"validFrom": 20295,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Kor­a­vell­i­um", "Av­ast"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Drag­on"],
+		"abilities": ["Im­mor­tal", "Shape­shift­er", "Shard Ves­sel"],
+		"validFrom": 20295,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Naz­ril­of", "(Nazh)"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Shade"],
+		"abilities": ["Cog­ni­tive Shad­ow", "World­hop­per"],
+		"validFrom": 20295,
+		"validUntil": 20303,
+		"shippable": true
+	},
+	{
+		"name": ["Ad­it­il"],
+		"homeWorld": "Dha­tri",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Ae­ther­bound", "World­hop­per"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["San­vith", "Pra­san­va", "Maa­hik", "va", "Si­la", "(Twin­Soul)"],
+		"homeWorld": "Dha­tri",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Ae­ther­bound", "World­hop­per"],
+		"validFrom": 20295,
+		"validUntil": 20613,
+		"shippable": true
+	},
+	{
+		"name": ["Edd­lin"],
+		"homeWorld": "Sil­ver­light",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Hu­man", "Vax­ili­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20295,
+		"shippable": true
+	},
+	{
+		"name": ["Zeet­Zi"],
+		"homeWorld": "The Grand Ap­pa­rat­us",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Lawn­ark"],
+		"abilities": ["Un­named e­lec­tric­i­ty pow­er"],
+		"validFrom": 20295,
+		"validUntil": 20464,
+		"shippable": true
+	},
+	{
+		"name": ["Chry­sal­is"],
+		"homeWorld": "Un­known",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Sleep­less"],
+		"abilities": ["Horde­lings", "World­hop­per"],
+		"validFrom": 20295,
+		"validUntil": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Se­bru­ki", "Fore­scout"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20296,
+		"shippable": true
+	},
+	{
+		"name": ["Si­lence", "(Fore­scout)", "Mon­tane"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20296,
+		"shippable": true
+	},
+	{
+		"name": ["Will­i­am Ann", "Mon­tane"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20296,
+		"shippable": true
+	},
+	{
+		"name": ["\"Grand­moth­er\"", "Fore­scout"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Shade"],
+		"abilities": ["Cog­ni­tive Shad­ow"],
+		"validFrom": 20296,
+		"validUntil": 20303,
+		"shippable": true
+	},
+	{
+		"name": ["No­tum"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Un­oathed", "Wind­run­ner"],
+		"validFrom": 20301,
+		"shippable": true
+	},
+	{
+		"name": ["Naz­ril­of", "(Nazh)"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Shade", "World­hop­per"],
+		"validFrom": 20304,
+		"shippable": true
+	},
+	{
+		"name": ["\"Grand­moth­er\"", "Fore­scout"],
+		"homeWorld": "Thre­no­dy",
+		"firstAppearance": [
+			"Shad­ows for Si­lence in the For­ests of Hell",
+			"Shad­ows for Si­lence in the For­ests of Hell"
+		],
+		"species": ["Hu­man", "Thre­no­dite"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Shade"],
+		"validFrom": 20304,
+		"shippable": true
+	},
+	{
+		"name": ["Ti­en"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Light­weav­er", "Surge­bind­er"],
+		"validFrom": 20316,
+		"validUntil": 20693,
+		"shippable": false
+	},
+	{
+		"name": ["Al­en­di"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Khlen­ni"],
+		"abilities": ["Hema­lurgy", "Mist­ing", "Seek­er"],
+		"validFrom": 20431,
+		"shippable": true
+	},
+	{
+		"name": ["Aux­il­i­ar­y"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Spren", "High­spren"],
+		"abilities": ["Na­hel Bond", "Sky­break­er", "Splint­er", "World­hop­per"],
+		"validFrom": 20453,
+		"shippable": true
+	},
+	{
+		"name": ["Hum­an", "(Ver­shad)"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The He­ro of Ages", "Mist­born Era 1"],
+		"species": ["Ko­loss", "Hu­man"],
+		"abilities": ["Hema­lurgy"],
+		"validFrom": 20465,
+		"shippable": false
+	},
+	{
+		"name": ["Clad­ent", "(Clubs)"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Mist­ing", "Smok­er"],
+		"validFrom": 20465,
+		"shippable": true
+	},
+	{
+		"name": ["Spook", "(Les­ti­bour­nes", "Jedal)"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Skaa"],
+		"abilities": ["Hema­lurgy", "Mist­born", "Mist­ing", "Sav­ant", "Tin­eye"],
+		"validFrom": 20465,
+		"shippable": true
+	},
+	{
+		"name": ["Tar­son"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Al­loy of Law", "Mist­born Era 2"],
+		"species": ["Hu­man", "Ko­loss"],
+		"abilities": ["Pew­ter­arm", "Sav­ant"],
+		"validFrom": 20465,
+		"shippable": true
+	},
+	{
+		"name": ["Zeet­Zi"],
+		"homeWorld": "The Grand Ap­pa­rat­us",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Hu­man", "Lawn­ark"],
+		"abilities": ["Un­named e­lec­tric­i­ty pow­er"],
+		"validFrom": 20465,
+		"shippable": true
+	},
+	{
+		"name": ["Fen", "Rnam­di"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thay­len"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20501,
+		"shippable": true
+	},
+	{
+		"name": ["Thude"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": ["Knight Ra­di­ant", "Will­shap­er"],
+		"validFrom": 20539,
+		"validUntil": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Jax­lim"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": ["Knight Ra­di­ant", "Will­shap­er"],
+		"validFrom": 20539,
+		"shippable": true
+	},
+	{
+		"name": ["Mo­ash"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Hema­lurgy", "Shard­bearer"],
+		"validFrom": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Vi­en­ta"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["El"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Fus­ed"],
+		"abilities": ["Fus­ed", "Shard­bearer"],
+		"validFrom": 20603,
+		"shippable": true
+	},
+	{
+		"name": ["Ta­le­nel"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ro­shar­an"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Jez­rien"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ka­lak"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Na­le"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Sky­break­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Pai­li­ah"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"validUntil": 20626,
+		"shippable": true
+	},
+	{
+		"name": ["Shal­ash"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ved­el"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Bat­tar"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Cha­na­rach"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ish­ar"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["A­ti"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ed­gli"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ler­as"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Well of As­cen­sion", "Mist­born Era 1"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ray­se"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Tan­av­ast"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Uli", "Da"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Sho Del", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Frost"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Drag­on", "Yol­ish"],
+		"abilities": ["Im­mor­tal", "Shape­shift­er"],
+		"validFrom": 20604,
+		"validUntil": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Xis­is­re­fli­el"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Drag­on", "Yol­ish"],
+		"abilities": ["Awaken­er", "Im­mor­tal", "Shape­shift­er", "World­hop­per"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ill­is­tan­dri­sta", "(Star­ling)"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Drag­on", "Yol­ish"],
+		"abilities": ["Im­mor­tal", "World­hop­per"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Me­de­lan­tor­i­us"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Drag­on", "Yol­ish"],
+		"abilities": ["Im­mor­tal", "Shape­shift­er", "Shard Ves­sel"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Kor­a­vell­i­um", "Av­ast"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Drag­on", "Yol­ish"],
+		"abilities": ["Im­mor­tal", "Shape­shift­er", "Shard Ves­sel"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ri­ina"],
+		"homeWorld": "Un­spec­i­fied",
+		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Awaken­er", "El­ant­ri­an", "World­hop­per"],
+		"validFrom": 20604,
+		"validUntil": 20693,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Hoid",
+			"(Wit, Ceph­an­dri­us Max­to­ri, Mid­i­us, Top­az, Lu­nu'an­ak­i)"
+		],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": [
+			"Awaken­er",
+			"Dawn­shard",
+			"El­ant­ri­an",
+			"Knight Ra­di­ant",
+			"Light­weav­er",
+			"Mist­born",
+			"Surge­bind­er",
+			"World­hop­per"
+		],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Ma­sa­ka", "(Chi­nik­dak­or­dich)"],
+		"homeWorld": "Un­spec­i­fied",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Sleep­less", "Na­ga­dan"],
+		"abilities": ["Horde­lings", "Night­mare Paint­er", "World­hop­per"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Chry­sal­is"],
+		"homeWorld": "Un­spec­i­fied",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Sleep­less"],
+		"abilities": ["Horde­lings", "World­hop­per"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Eli­zan­dra", "Dram­ali"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": [
+			"Al­lo­man­cer Jak and the Pits of El­ta­nia",
+			"Mist­born Era 2"
+		],
+		"species": ["Hu­man", "Ko­loss"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20604,
+		"shippable": true
+	},
+	{
+		"name": ["Hu­io"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Her­da­zi­an"],
+		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Wind­run­ner"],
+		"validFrom": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Ty­vnk"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Grass", "Shin"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20605,
+		"validUntil": 20613,
+		"shippable": true
+	},
+	{
+		"name": ["Re­lu-na"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Great­shell", "Tai-na"],
+		"abilities": ["Na­hel Bond"],
+		"validFrom": 20605,
+		"shippable": true
+	},
+	{
+		"name": ["Chi­ri-Chi­ri"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Great­shell", "Lar­kin"],
+		"abilities": ["Con­sumes In­vest­iture"],
+		"validFrom": 20605,
+		"shippable": false
+	},
+	{
+		"name": ["Weev"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Sprout­er"],
+		"validFrom": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Tress"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Sprout­er"],
+		"validFrom": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Char­lie (Chuck)"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Ann"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Crow"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Spore Eat­er"],
+		"validFrom": 20606,
+		"validUntil": 20613,
+		"shippable": true
+	},
+	{
+		"name": ["Fort"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Lag­gart"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Sal­ay"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Dorp"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Sprout­er"],
+		"validFrom": 20606,
+		"shippable": true
+	},
+	{
+		"name": ["Ax­ies"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Si­ah Ai­mi­an"],
+		"abilities": ["Curse of Kind"],
+		"validFrom": 20607,
+		"shippable": true
+	},
+	{
+		"name": ["Thude"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Sing­er", "Lis­ten­er"],
+		"abilities": ["Knight Ra­di­ant", "Shard­bearer", "Will­shap­er"],
+		"validFrom": 20607,
+		"shippable": true
+	},
+	{
+		"name": ["Da­jer"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["Isles of the Em­ber­dark", "Isles of the Em­ber­dark"],
+		"species": ["Hu­man", "Mal­wish"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20612,
+		"shippable": true
+	},
+	{
+		"name": ["A­do­nal­si­um"],
+		"homeWorld": "Un­spec­i­fied",
+		"firstAppearance": ["The He­ro of Ages", "Mist­born Era 1"],
+		"species": ["Un­known"],
+		"abilities": ["Un­known"],
+		"validFrom": 20614,
+		"shippable": true
+	},
+	{
+		"name": ["Stick"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Plant", "Stick"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20614,
+		"shippable": false
+	},
+	{
+		"name": ["Ty­vnk"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Plant", "Shin"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20614,
+		"shippable": true
+	},
+	{
+		"name": ["Sil­aja­na"],
+		"homeWorld": "Dha­tri",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Ae­ther", "Rose­ite"],
+		"abilities": ["Ae­ther", "Con­trol of Rose­ite", "Lu­hel Bond"],
+		"validFrom": 20614,
+		"shippable": true
+	},
+	{
+		"name": ["San­vith", "Pra­san­va", "Maa­hik", "va", "Si­la", "(Twin­Soul)"],
+		"homeWorld": "Dha­tri",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": [
+			"Ae­ther­bound",
+			"Con­trol of Rose­ite",
+			"Lu­hel Bond",
+			"World­hop­per"
+		],
+		"validFrom": 20614,
+		"shippable": true
+	},
+	{
+		"name": ["Crow"],
+		"homeWorld": "Lu­mar",
+		"firstAppearance": ["Tress of the Em­er­ald Sea", "Hoid's Tra­vails"],
+		"species": ["Hu­man", "Lu­ma­ran"],
+		"abilities": ["Lu­hel Bond", "Spore Eat­er"],
+		"validFrom": 20614,
+		"shippable": true
+	},
+	{
+		"name": ["Aona"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20615,
+		"shippable": true
+	},
+	{
+		"name": ["Skai"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Yol­ish"],
+		"abilities": ["Shard Ves­sel"],
+		"validFrom": 20615,
+		"shippable": true
+	},
+	{
+		"name": ["Nu­mu­hu­ku­ma­ki­ak­i'ai­a­lun­am­or (Rock)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­ka­la­ki"],
+		"abilities": ["Sight­ed", "Surge­bind­er", "Wind­run­ner Squire"],
+		"validFrom": 20616,
+		"shippable": true
+	},
+	{
+		"name": ["Szeth-son-Ne­tu­ro", "(Szeth-son-son-Vall­ano)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Sky­break­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 20616,
+		"shippable": true
+	},
+	{
+		"name": ["Ba­lat", "Da­var"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20616,
+		"shippable": true
+	},
+	{
+		"name": ["Ey­li­ta", "Ta­vi­nar"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ve­den"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20616,
+		"shippable": true
+	},
+	{
+		"name": ["Ish­ikk"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Se­lay"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20616,
+		"shippable": true
+	},
+	{
+		"name": ["Pral­la", "(Pai­li­ah)"],
+		"homeWorld": "Ash­yn",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ash­yn­ite"],
+		"abilities": [
+			"Cog­ni­tive Shad­ow",
+			"Her­ald",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 20627,
+		"shippable": true
+	},
+	{
+		"name": ["Dre­hy"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 20627,
+		"shippable": true
+	},
+	{
+		"name": ["Ro­shone"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20627,
+		"shippable": true
+	},
+	{
+		"name": ["La­ral", "Ro­shone"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20627,
+		"shippable": true
+	},
+	{
+		"name": ["Ia­lai", "Sad­e­as"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20627,
+		"shippable": true
+	},
+	{
+		"name": ["Ni­ka­ro", "(Pain­ter)"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "Na­ga­dan"],
+		"abilities": ["Cog­ni­tive Shad­ow", "Night­mare Paint­er"],
+		"validFrom": 20669,
+		"validUntil": 20696,
+		"shippable": true
+	},
+	{
+		"name": ["Yalb"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thay­len"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20670,
+		"shippable": true
+	},
+	{
+		"name": ["Da­mi", "(Storm­wall)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Ri­ran"],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Shard­bearer",
+			"Stone­ward",
+			"Surge­bind­er"
+		],
+		"validFrom": 20670,
+		"shippable": true
+	},
+	{
+		"name": ["Ge­a­ril-daugh­ter-Ge­a­ril"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": ["Hon­or­bear­er", "Shard­bearer", "Surge­bind­er"],
+		"validFrom": 20672,
+		"shippable": true
+	},
+	{
+		"name": ["Jas­tes", "Le­kal"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Fi­nal Em­pire", "Mist­born Era 1"],
+		"species": ["Hu­man", "Noble"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Tyn"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Tu Bay­lan"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Lyn"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Ae­su­dan", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Ye­lig-Nar"],
+		"validFrom": 20683,
+		"validUntil": 20693,
+		"shippable": true
+	},
+	{
+		"name": ["Me­ri­das", "Ama­ram"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer", "Ye­lig-Nar"],
+		"validFrom": 20683,
+		"validUntil": 20693,
+		"shippable": true
+	},
+	{
+		"name": ["Ba­va­din"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Un­known", "Yol­ish"],
+		"abilities": ["Shape­shift­er", "Shard Ves­sel"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Go­de­ke"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Edge­danc­er", "Knight Ra­di­ant", "Surge­bind­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Da­ora"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Are­le­ne"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Even­teo"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Se­on Bond"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Ia­don"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Are­le­ne"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Ra­o­den"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an", "Se­on Bond"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Sar­en­e"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Se­on Bond"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Dio"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Ien"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "A­she"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Hob­ber"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Le­mex"],
+		"homeWorld": "Nal­this",
+		"firstAppearance": ["War­break­er", "War­break­er"],
+		"species": ["Hu­man", "Id­ri­an"],
+		"abilities": ["Awaken­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Ley­ten"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Knight Ra­di­ant", "Surge­bind­er", "Wind­run­ner"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Eth­enia"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Spren", "Hon­or­spren"],
+		"abilities": ["Na­hel Bond", "Splint­er", "Wind­run­ner"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Ka­za"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Lia­for­an"],
+		"abilities": ["Sav­ant"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Lu­kel"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Are­le­ne"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Adi­en"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683,
+		"shippable": false
+	},
+	{
+		"name": ["Ka­ise", "(Code­names Are Stu­pid)"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Se­on Bond", "World­hop­per"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Da­orn"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Teo"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683,
+		"shippable": false
+	},
+	{
+		"name": ["Teo­fil"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Ven­Dell"],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": ["The Bands of Mourn­ing", "Mist­born Era 2"],
+		"species": ["Kan­dra", "Sixth Gen­er­a­tion"],
+		"abilities": ["Shape­shift­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Olo"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er", "World­hop­per"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Aeo"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Hope of El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Ala"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Rhythm of War", "Storm­light Ar­chive"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er", "World­hop­per"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Ati"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Dao"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Lost Me­tal", "Mist­born Era 2"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er", "World­hop­per"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Mai"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Se­on", "Opa"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Se­on"],
+		"abilities": ["Se­on Bond", "Shape­shift­er", "Splint­er"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Matis­se"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["The Hope of El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Da­she"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Mar­esh­e"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Ka­ra­ta"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an"],
+		"validFrom": 20683,
+		"shippable": true
+	},
+	{
+		"name": ["Bax­il"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Emu­li"],
+		"abilities": ["Old Magic"],
+		"validFrom": 20685,
+		"shippable": true
+	},
+	{
+		"name": ["Av"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Emu­li"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20685,
+		"shippable": true
+	},
+	{
+		"name": ["V­stim"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Thay­len"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20687,
+		"shippable": true
+	},
+	{
+		"name": ["Ru­shu"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Un­spec­i­fied"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20688,
+		"shippable": true
+	},
+	{
+		"name": ["Storm­fath­er"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Spren", "Bond­smith"],
+		"abilities": [
+			"Av­a­tar",
+			"Bond­smith",
+			"Cog­ni­tive Shad­ow",
+			"Na­hel Bond",
+			"Sliv­er",
+			"Splint­er"
+		],
+		"validFrom": 20688,
+		"shippable": true
+	},
+	{
+		"name": ["Zee­nid-daugh­ter-Beth"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Wind and Truth", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Shin"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Ti­en"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20694,
+		"shippable": false
+	},
+	{
+		"name": ["Ri­ina"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an", "World­hop­per"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Ri­ino"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["El­ant­ris", "El­ant­ris"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an", "World­hop­per"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Alo­noe"],
+		"homeWorld": "Sel",
+		"firstAppearance": ["Se­cret His­to­ry", "Mist­born Era 1"],
+		"species": ["Hu­man", "Aon­ic"],
+		"abilities": ["El­ant­ri­an", "World­hop­per"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Ae­su­dan", "Kho­lin"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Surge­bind­er", "Ye­lig-Nar"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Me­ri­das", "Ama­ram"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": ["Shard­bearer", "Surge­bind­er", "Ye­lig-Nar"],
+		"validFrom": 20694,
+		"shippable": true
+	},
+	{
+		"name": ["Frost"],
+		"homeWorld": "Yo­len",
+		"firstAppearance": ["Words of Ra­di­ance", "Storm­light Ar­chive"],
+		"species": ["Drag­on", "Yol­ish"],
+		"abilities": ["Im­mor­tal", "Shape­shift­er", "World­hop­per"],
+		"validFrom": 20695,
+		"shippable": true
+	},
+	{
+		"name": ["Di­eno", "en­ne", "Ca­lah", "(The Mink)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["Oath­bring­er", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "Her­da­zi­an"],
+		"abilities": ["Un­in­vest­ed"],
+		"validFrom": 20696,
+		"shippable": true
+	},
+	{
+		"name": ["Ni­ka­ro", "(Pain­ter)"],
+		"homeWorld": "Ko­ma­shi",
+		"firstAppearance": [
+			"Yu­mi and the Night­mare Pain­ter",
+			"Hoid's Tra­vails"
+		],
+		"species": ["Hu­man", "Na­ga­dan"],
+		"abilities": ["Night­mare Paint­er"],
+		"validFrom": 20697,
+		"shippable": true
+	},
+	{
+		"name": ["Da­li­nar", "Kho­lin", "(Black­thorn)"],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
+		"species": ["Hu­man", "A­le­thi"],
+		"abilities": [
+			"Bond­smith",
+			"Knight Ra­di­ant",
+			"Old Magic",
+			"Shard Ves­sel",
+			"Shard­bearer",
+			"Sliv­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 20697,
+		"shippable": true
+	}
+]
