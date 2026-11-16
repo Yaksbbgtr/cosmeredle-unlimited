@@ -3823,7 +3823,7 @@
 		"shippable": true
 	},
 	{
-		"name": ["Ro­shone"],
+		"name": ["To­ra­lin", "Ro­shone"],
 		"homeWorld": "Ro­shar",
 		"firstAppearance": ["The Way of Kings", "Storm­light Ar­chive"],
 		"species": ["Hu­man", "A­le­thi"],
@@ -4444,6 +4444,188 @@
 		"species": [
 			"Hu­man",
 			"Mal­wish"
+		],
+		"abilities": [
+			"Un­in­vest­ed"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Vathah"
+		],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": [
+			"Words of Ra­di­ance",
+			"Storm­light Ar­chive"
+		],
+		"species": [
+			"Hu­man",
+			"A­le­thi"
+		],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Light­weav­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Kadash"
+		],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": [
+			"The Way of Kings",
+			"Storm­light Ar­chive"
+		],
+		"species": [
+			"Hu­man",
+			"A­le­thi"
+		],
+		"abilities": [
+			"Un­in­vest­ed"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Peet"
+		],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": [
+			"The Way of Kings",
+			"Storm­light Ar­chive"
+		],
+		"species": [
+			"Hu­man",
+			"Un­spec­i­fied"
+		],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Surge­bind­er",
+			"Wind­run­ner"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Beryl"
+		],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": [
+			"Rhythm of War",
+			"Storm­light Ar­chive"
+		],
+		"species": [
+			"Hu­man",
+			"A­le­thi"
+		],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Light­weav­er",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Tvlakv"
+		],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": [
+			"The Way of Kings",
+			"Storm­light Ar­chive"
+		],
+		"species": [
+			"Hu­man",
+			"Thay­len"
+		],
+		"abilities": [
+			"Un­in­vest­ed"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Ishnah"
+		],
+		"homeWorld": "Ro­shar",
+		"firstAppearance": [
+			"Oath­bring­er",
+			"Storm­light Ar­chive"
+		],
+		"species": [
+			"Hu­man",
+			"A­le­thi"
+		],
+		"abilities": [
+			"Knight Ra­di­ant",
+			"Light­weav­er",
+			"Shard­bearer",
+			"Surge­bind­er"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Axindweth"
+		],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": [
+			"Rhythm of War",
+			"Storm­light Ar­chive"
+		],
+		"species": [
+			"Hu­man",
+			"Ter­ris"
+		],
+		"abilities": [
+			"Fe­ru­che­mist",
+			"World­hop­per"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Ferson",
+			"Penrod"
+		],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": [
+			"The Well of As­cen­sion",
+			"Mist­born Era 1"
+		],
+		"species": [
+			"Hu­man",
+			"Noble"
+		],
+		"abilities": [
+			"Un­in­vest­ed"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Yeden"
+		],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": [
+			"The Fi­nal Em­pire",
+			"Mist­born Era 1"
+		],
+		"species": [
+			"Hu­man",
+			"Skaa"
 		],
 		"abilities": [
 			"Un­in­vest­ed"
