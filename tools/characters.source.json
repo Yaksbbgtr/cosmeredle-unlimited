@@ -4411,5 +4411,44 @@
 		],
 		"validFrom": 0,
 		"shippable": true
+	},
+	{
+		"name": [
+			"Rebeke",
+			"Salvage"
+		],
+		"homeWorld": "Can­ti­cle",
+		"firstAppearance": [
+			"The Sun­lit Man",
+			"The Sun­lit Man"
+		],
+		"species": [
+			"Hu­man",
+			"Thre­no­dite"
+		],
+		"abilities": [
+			"Char­red"
+		],
+		"validFrom": 0,
+		"shippable": true
+	},
+	{
+		"name": [
+			"Leonore"
+		],
+		"homeWorld": "Sca­dri­al",
+		"firstAppearance": [
+			"Isles of the Em­ber­dark",
+			"Isles of the Em­ber­dark"
+		],
+		"species": [
+			"Hu­man",
+			"Mal­wish"
+		],
+		"abilities": [
+			"Un­in­vest­ed"
+		],
+		"validFrom": 0,
+		"shippable": true
 	}
 ]
