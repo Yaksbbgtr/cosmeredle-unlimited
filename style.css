@@ -80,7 +80,14 @@ body {
 }
 
 /* ---------- header bar ---------- */
+/* Sticky with a solid background: on iOS 26 the system blurs page content that sits under the
+   status bar (the "soft edge"), which smeared the title and icons. A fixed/sticky bar at the top
+   gets a hard, solid edge instead, so the header stays sharp. */
 .top {
+  position: sticky;
+  top: 0;
+  z-index: 30;
+  background: var(--bg);
   margin: 0 -16px;
   padding: env(safe-area-inset-top) 16px 0;
   height: calc(64px + env(safe-area-inset-top));
