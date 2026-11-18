@@ -1,4 +1,7 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <rect width="64" height="64" rx="12" fill="#6aaa64"/>
-  <text x="32" y="46" text-anchor="middle" font-family="Helvetica Neue, Arial, sans-serif" font-weight="800" font-size="40" fill="#fff">C</text>
-</svg>
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><rect width="512" height="512" rx="96" fill="#121213"/><g transform="translate(256 256) scale(0.88) translate(-256 -256)" fill="#f4f1ea">
+<g transform="rotate(0 256 256)"><path d="M146 80 A140 140 0 0 1 366 80 A220 220 0 0 0 146 80Z"/><path d="M256 74 Q262 140 280 170 L232 170 Q250 140 256 74Z"/></g><g transform="rotate(90 256 256)"><path d="M146 80 A140 140 0 0 1 366 80 A220 220 0 0 0 146 80Z"/><path d="M256 74 Q262 140 280 170 L232 170 Q250 140 256 74Z"/></g><g transform="rotate(180 256 256)"><path d="M146 80 A140 140 0 0 1 366 80 A220 220 0 0 0 146 80Z"/><path d="M256 74 Q262 140 280 170 L232 170 Q250 140 256 74Z"/></g><g transform="rotate(270 256 256)"><path d="M146 80 A140 140 0 0 1 366 80 A220 220 0 0 0 146 80Z"/><path d="M256 74 Q262 140 280 170 L232 170 Q250 140 256 74Z"/></g>
+<circle cx="256" cy="256" r="86" fill="none" stroke="#f4f1ea" stroke-width="14"/>
+<path d="M256 150 Q290 222 362 256 Q290 290 256 362 Q222 290 150 256 Q222 222 256 150Z" fill="#121213" stroke="#f4f1ea" stroke-width="14" stroke-linejoin="miter" stroke-miterlimit="20"/>
+<circle cx="256" cy="256" r="16"/>
+<path d="M276.0 254.6 L289.0 256.0 L276.0 257.4ZM275.0 262.3 L286.5 268.6 L273.9 264.9ZM271.1 269.1 L279.3 279.3 L269.1 271.1ZM264.9 273.9 L268.6 286.5 L262.3 275.0ZM257.4 276.0 L256.0 289.0 L254.6 276.0ZM249.7 275.0 L243.4 286.5 L247.1 273.9ZM242.9 271.1 L232.7 279.3 L240.9 269.1ZM238.1 264.9 L225.5 268.6 L237.0 262.3ZM236.0 257.4 L223.0 256.0 L236.0 254.6ZM237.0 249.7 L225.5 243.4 L238.1 247.1ZM240.9 242.9 L232.7 232.7 L242.9 240.9ZM247.1 238.1 L243.4 225.5 L249.7 237.0ZM254.6 236.0 L256.0 223.0 L257.4 236.0ZM262.3 237.0 L268.6 225.5 L264.9 238.1ZM269.1 240.9 L279.3 232.7 L271.1 242.9ZM273.9 247.1 L286.5 243.4 L275.0 249.7Z"/>
+</g></svg>
